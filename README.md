@@ -1,26 +1,28 @@
-# [RequireJS-Multipage-Shim-Boilerplate](http://robdodson.me/blog/2012/11/18/a-require-dot-js-multipage-shimmed-site-how-to/)
+# RequireJS-Multipage-Shim-Boilerplate + Gulp
 
-This boilerplate is designed to help teams get started with, or transition over to, RequireJS. A step-by-step guide is provided at [http://robdodson.me/blog/2012/11/18/a-require-dot-js-multipage-shimmed-site-how-to/](http://robdodson.me/blog/2012/11/18/a-require-dot-js-multipage-shimmed-site-how-to/)
+A Gulp version of requirejs multipage setup, with shim! No quick and dirty examples were available, so here is a gulp setup! (A little late to the party, but oh well!)
+
+This boilerplate is based upon the original setup of [RequireJS-Multipage-Shim-Boilerplate](https://github.com/robdodson/requirejs-multipage-shim-boilerplate), with the blog article: [http://robdodson.me/blog/2012/11/18/a-require-dot-js-multipage-shimmed-site-how-to/](http://robdodson.me/blog/2012/11/18/a-require-dot-js-multipage-shimmed-site-how-to/)
 
 ## Features
 
 - RequireJS 2.1.9
 - Bootstrap 3
 - jQuery 2.0.3
-- r.js optimized builds with Grunt
+- require.js optimized builds with Gulp
 
 ## Quick Start
 
 Clone the project
 
 ```
-git clone https://github.com/robdodson/requirejs-multipage-shim-boilerplate.git
+git clone https://github.com/TrevorJTClarke/requirejs-multipage-shim-boilerplate.git
 ```
 
-Install grunt (if you don't already have it)
+Install Gulp (if you don't already have it)
 
 ```
-npm install -g grunt-cli
+npm install -g gulp
 ```
 
 Install dependencies with `npm` and build!
@@ -28,9 +30,9 @@ Install dependencies with `npm` and build!
 ```
 cd requirejs-multipage-shim-boilerplate
 npm install
-grunt
+gulp
 ```
 
 ## License
 
-[MIT License](http://robdodson.mit-license.org/) © Rob Dodson
+MIT License

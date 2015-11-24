@@ -1,11 +1,11 @@
 {
   "name": "requirejs-multipage-shim-boilerplate",
-  "author": "Rob Dodson <lets.email.rob@gmail.com>",
+  "author": "@TrevorJTClarke",
+  "description": "A Gulp version of requirejs multipage setup, with shim! No quick and dirty examples were available, so here is a gulp setup! (A little late to the party, but oh well!)",
   "version": "1.0.0",
+  "keywords": ["gulp", "requirejs", "backbone", "shim", "boilerplate", "multipage"],
   "devDependencies": {
-    "grunt-contrib-cssmin":       "latest",
-    "grunt-contrib-requirejs":    "latest",
-    "grunt-contrib-clean":        "latest",
-    "grunt":                      "~0.4"
+    "gulp": "^3.9.0",
+    "requirejs": "^2.1.22"
   }
 }

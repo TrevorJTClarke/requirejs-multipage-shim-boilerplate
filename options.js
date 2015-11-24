@@ -3,6 +3,7 @@ module.exports = {
   baseUrl: 'js/',
   mainConfigFile: 'www/js/common.js',
   dir: 'www-release',
+  preserveLicenseComments: false,
   modules: [
     // First set up the common build layer.
     {
